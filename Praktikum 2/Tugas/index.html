@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="/bootstrap-5.3.8-dist/css/bootstrap.min.css"
+    />
+    <style>
+      body {
+        background: #eff5d2;
+      }
+      h1 {
+        font-family: cursive;
+        font-size: 2rem;
+        font-weight: 700;
+        margin-bottom: 20px;
+        border-bottom: 3px solid #556b2f;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+      .nav-link {
+        color: #ffff;
+      }
+      a {
+        font-family: cursive;
+      }
+      .card {
+        border-radius: 15px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+      }
+      .table th {
+        background: #556b2f;
+        color: white;
+        text-align: center;
+      }
+      .card-footer {
+        background-color: #556b2f;
+      }
+      .text-muted {
+        color: #eff5d2 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark"
+      style="
+        background-color: #556b2f;
+        box-shadow: 5 10px 10px rgba(0, 0, 0, 0.1);
+      "
+    >
+      <div class="container">
+        <a class="navbar-brand" href="#" style="color: white"
+          >Nasywan Ahmad I.M</a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/Tugas/Praktikum 2/Praktikum/buku_tamu.html"
+                >Buku Tamu</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="/Tugas/Praktikum 2/Praktikum/Latihan 2.html"
+                >Daftar Harga</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pendidikan">Pendidikan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#jadwal">Jadwal Kuliah</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container my-5">
+      <div id="home" class="card p-4 mb-4">
+        <h1>HOME</h1>
+        <p class="text-justify">
+          Jurusan Teknik Informatika dan Komputer di bawah naungan Fakultas
+          Teknik Universitas Negeri Makassar atas dasar Permenristekdikti Nomor
+          15 Tahun 2019 tentang Organisasi Tata Kelola Universitas Negeri
+          Makassar dan Surat keputusan Rektor Nomor 669/UN36/KP/2020 tentang
+          pembentukan Jurusan Teknik Informatika dan Komputer Fakultas Teknik
+          Universitas Negeri Makassar. Jurusan ini merupakan jurusan pertama
+          dengan nomenklatur Jurusan Teknik Informatika dan Komputer dalam
+          lingkungan Fakultas Teknik UNM.
+        </p>
+      </div>
+
+      <div id="about" class="card p-4 mb-4">
+        <h1>ABOUT ME</h1>
+        <p>
+          Klik link ini untuk melihat info tentang saya:
+          <a href="artikel.html" class="btn btn-success btn-sm">About Me</a>
+        </p>
+      </div>
+
+      <div id="pendidikan" class="card p-4 mb-4">
+        <h1>PENDIDIKAN</h1>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">TK - TK Pertiwi Galesong</li>
+          <li class="list-group-item">SD - SD Negeri No. 75 Bentang</li>
+          <li class="list-group-item">SMP - SMP Negeri 3 Galesong-Selatan</li>
+          <li class="list-group-item">SMK - SMK Negeri 1 Takalar</li>
+          <li class="list-group-item">S1 - PTIK Universitas Negeri Makassar</li>
+        </ul>
+      </div>
+
+      <div id="jadwal" class="card p-4 mb-4">
+        <h1>JADWAL KULIAH</h1>
+        <div class="table-responsive">
+          <table class="table table-hover table-bordered align-middle">
+            <thead>
+              <tr>
+                <th>Hari</th>
+                <th>No</th>
+                <th>Mata Kuliah</th>
+                <th>Waktu / Ruangan</th>
+                <th>SKS</th>
+                <th>Dosen Pengampu</th>
+                <th>Dosen Mitra</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td rowspan="2" class="text-center">Senin</td>
+                <td>1</td>
+                <td>Keamanan Komputer</td>
+                <td>07.30 - 10.05<br />C2-P4</td>
+                <td>3</td>
+                <td>Fadhlirrahman Baso, S.Pd., M.Pd.</td>
+                <td>Aulyah Zakilah Ifani, M.Kom.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Profesi Kependidikan</td>
+                <td>16.00 - 17.30<br />AE 107</td>
+                <td>2</td>
+                <td>Prof. Dr. H. Syahrul, M.Pd.</td>
+                <td>Mardiana, S.Pd., M.Pd.</td>
+              </tr>
+              <tr>
+                <td rowspan="3" class="text-center">Selasa</td>
+                <td>1</td>
+                <td>Inovasi Teknologi</td>
+                <td>09.15 - 11.00<br />Lab ICT 3</td>
+                <td>2</td>
+                <td>Prof. Dr. Ir. H. Bakhrani A. Rauf, M.T.</td>
+                <td>M. Miftach Fakhri, S.Kom., M.Pd.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Strategi Pembelajaran</td>
+                <td>11.00 - 13.10<br />C2-P5</td>
+                <td>3</td>
+                <td>Prof. Dr. Muhammad Rais, S.Pd., M.P., M.T.</td>
+                <td>Shabrina Syntha Dewi, S.Pd., M.Pd.</td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Kecerdasan Buatan</td>
+                <td>14.50 - 17.30<br />AE 105</td>
+                <td>3</td>
+                <td>Dr. Eng. Muhammad Ayat Hidayat, S.T., M.T.</td>
+                <td>Dr. Imran, S.Kom., M.Pd.</td>
+              </tr>
+              <tr>
+                <td class="text-center">Rabu</td>
+                <td>1</td>
+                <td>Jaringan Komputer</td>
+                <td>10.05 - 12.40<br />Lab Jaringan</td>
+                <td>3</td>
+                <td>Dr. Ir. Muliadi, S.Pd., M.T.</td>
+                <td>Ir. Rahmaniar, S.Kom., M.Kom.</td>
+              </tr>
+              <tr>
+                <td class="text-center">Kamis</td>
+                <td>1</td>
+                <td>Pemrograman Web</td>
+                <td>07.30 - 10.05<br />AE 102</td>
+                <td>3</td>
+                <td>Dr. Ir. Mustari S. Lamada, S.Pd., M.T.</td>
+                <td>Alifya NFH, S.Pd., M.Pd.</td>
+              </tr>
+              <tr>
+                <td rowspan="2" class="text-center">Jum'at</td>
+                <td>1</td>
+                <td>Psikologi Pendidikan</td>
+                <td>10.00 - 11.00<br />C3-P1</td>
+                <td>2</td>
+                <td>Dwi Rezky Anandari Sulaiman, S.Psi., M.Psi.</td>
+                <td>Ainun Nida Rifqi, S.Psi., M.Psi.T.</td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Struktur Data</td>
+                <td>14.50 - 17.30<br />AE 107</td>
+                <td>3</td>
+                <td>Alifya NFH, S.Pd., M.Pd.</td>
+                <td>Muh. Akbar, S.Pd., M.Pd.</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div id="buku" class="card p-4 mb-4">
+        <h1>BUKU TAMU</h1>
+        <p>
+          Klik link ini untuk membuka page buku tamu:
+          <a
+            href="/Tugas/Praktikum 2/Praktikum/buku_tamu.html"
+            class="btn btn-success btn-sm"
+            >Buku Tamu</a
+          >
+        </p>
+      </div>
+    </div>
+
+    <footer>
+      <div class="card-footer text-center">
+        <small class="text-muted"> &copy; Nasywan PTIK C 24</small>
+      </div>
+    </footer>
+    <script
+      type="text/javascript"
+      src="/bootstrap-5.3.8-dist/js/bootstrap.min.js"
+    ></script>
+  </body>
+</html>
